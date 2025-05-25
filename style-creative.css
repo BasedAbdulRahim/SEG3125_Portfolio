@@ -1,0 +1,98 @@
+/* Creative Style - Sunset Theme with Light Blue Shadow Pop */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url('https://i.imgur.com/mtvrK05.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #1a0e08;
+  color: #fff1e6;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.5;
+  padding-bottom: 60px;
+}
+
+h1, h2 {
+  color: #ffcc70;
+  text-shadow: 0 0 4px #ffcc70, 0 0 8px #ff9966;
+  font-size: 1.25rem;
+}
+
+.card.section-box {
+  background-color: rgba(255, 206, 72, 0.9);
+  border: 2px solid #8f70ff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow:
+    0 0 15px rgba(255, 204, 112, 0.6),
+    0 0 20px rgba(102, 255, 255, 0.15); /* light blue glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.section-box:hover {
+  transform: scale(1.01);
+  box-shadow:
+    0 0 25px rgba(255, 204, 112, 0.7),
+    0 0 30px rgba(102, 255, 255, 0.2);
+}
+
+.project-card {
+  background-color: rgba(35, 17, 10, 0.95);
+  border: 2px dashed #ffcc70;
+  border-radius: 10px;
+  box-shadow:
+    0 0 10px rgba(255, 232, 102, 0.7),
+    0 0 20px rgba(102, 255, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 25px rgba(255, 187, 102, 0.85),
+    0 0 35px rgba(102, 255, 255, 0.25);
+}
+
+.project-card p {
+  font-size: 0.65rem;
+}
+
+.card-title {
+  color: #ffe3b3;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-secondary {
+  background-color: #ff9966;
+  color: #1a0e08;
+  border: none;
+  font-size: 0.6rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  box-shadow:
+    0 0 8px rgba(255, 153, 102, 0.6),
+    0 0 10px rgba(102, 255, 255, 0.15);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #ffaa77;
+  color: #000;
+  box-shadow:
+    0 0 12px rgba(255, 170, 119, 0.8),
+    0 0 16px rgba(102, 255, 255, 0.3);
+}
+
+a {
+  color: #ffcc70;
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+  color: #fff6cc;
+  text-shadow: 0 0 4px #fff6cc;
+}
