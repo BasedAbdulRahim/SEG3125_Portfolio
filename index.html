@@ -1,110 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Based Abdul Rahim - Portfolio</title>
-  <link id="styleLink" rel="stylesheet" href="style-professional.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-  <script>
-    function toggleStyle() {
-      const styleSheet = document.getElementById("styleLink");
-      styleSheet.setAttribute("href",
-        styleSheet.getAttribute("href") === "style-professional.css"
-          ? "style-creative.css"
-          : "style-professional.css"
-      );
-    }
-  </script>
-</head>
-<body class="container py-5">
+<!-- Projects Section -->
+<div class="card section-box">
+  <div class="card-body">
+    <h2>Projects</h2>
+    <div class="row">
 
-  <!-- Header -->
-  <div class="d-flex justify-content-between align-items-center mb-5">
-    <h1 class="mb-0">Based Abdul Rahim</h1>
-    <button class="btn btn-secondary" onclick="toggleStyle()">Toggle Style</button>
-  </div>
-
-  <!-- About Me Section -->
-  <div class="card section-box mb-4">
-    <div class="card-body">
-      <h2>About Me</h2>
-      <p>
-        Hi! I'm <strong>Based Abdul Rahim</strong>, a Software Engineering student at the University of Ottawa (2023–2027), passionate about building technology that’s practical, reliable, and user-friendly. I’m deeply interested in software systems, interface design, and the real-world impact of well-crafted code.
-      </p>
-      <p>
-        I’ve completed coursework in digital systems, software architecture, UI development, operating systems, and human-centered computing. I’ve also developed strong programming skills in Java, Python, JavaScript, HTML, and CSS. My toolbelt includes Git, VSCode, Eclipse, Blender, AutoCAD, and more.
-      </p>
-      <p>
-        My academic work includes a Java-based AI pathfinding project, a web-based nutrition platform built with modern frontend tools, and contributions to various user interface prototypes. These experiences taught me the value of user-centered thinking, design iteration, and debugging discipline.
-      </p>
-      <p>
-        Outside of academics, I enjoy gaming, retro visual design, and collaborating with others on creative digital projects. I speak English, French, and Farsi fluently, and bring that same adaptability into every challenge I take on.
-      </p>
-    </div>
-  </div>
-
-  <!-- How I Work Section -->
-  <div class="card section-box mb-4">
-    <div class="card-body">
-      <h2>How I Work</h2>
-      <p><strong>Detail-Oriented & Quality Focused:</strong> I prioritize writing clean, maintainable code and rigorously test my work using various methodologies including regression and ad-hoc testing to ensure reliable software.</p>
-      <p><strong>Collaborative Team Player:</strong> I thrive in team environments, actively communicating and collaborating to understand requirements, share ideas, and deliver solutions that meet user needs.</p>
-      <p><strong>User-Centric Design:</strong> I integrate UI/UX principles to build intuitive, accessible interfaces, constantly iterating based on user feedback and testing results.</p>
-      <p><strong>Problem Solver:</strong> I approach challenges analytically, breaking down complex problems—whether in algorithms, system design, or debugging—to deliver efficient and effective solutions.</p>
-      <p><strong>Adaptable Learner:</strong> I embrace new tools, languages, and methodologies, always eager to expand my technical skillset and apply best practices from both software engineering and engineering disciplines.</p>
-      <p><strong>Strong Work Ethic:</strong> I consistently manage my time and prioritize tasks in high-pressure environments, maintaining productivity and meeting deadlines without compromising quality.</p>
-    </div>
-  </div>
-
-  <!-- Projects Section -->
-  <div class="card section-box">
-    <div class="card-body">
-      <h2>Projects (Coming Soon)</h2>
-      <div class="row">
-        <div class="col-md-3">
-  <div class="card project-card">
-    <div class="card-body">
-      <h5 class="card-title">SmileBright Dental Clinic</h5>
-      <p>A responsive React-based dental services site prototype with booking form and map.</p>
-      <a href="https://6844dfa0700eac721ead52db--stupendous-griffin-f0076c.netlify.app/"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="btn btn-primary mt-2">
-        View Project
-      </a>
-    </div>
-  </div>
-</div>
-
-        </div>
-        <div class="col-md-3">
-          <div class="card project-card">
-            <div class="card-body">
-              <h5 class="card-title">Game</h5>
-              <p>Coming Soon</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card project-card">
-            <div class="card-body">
-              <h5 class="card-title">E-Commerce</h5>
-              <p>Coming Soon</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card project-card">
-            <div class="card-body">
-              <h5 class="card-title">Analytics</h5>
-              <p>Coming Soon</p>
-            </div>
+      <!-- SmileBright Project -->
+      <div class="col-md-3">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">SmileBright Dental Clinic</h5>
+            <p>A responsive React-based dental services site prototype with booking form and map.</p>
+            <a href="https://6844dfa0700eac721ead52db--stupendous-griffin-f0076c.netlify.app/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-primary mt-2">
+              View Project
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-</body>
-</html>
+      <!-- Game Project -->
+      <div class="col-md-3">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Game</h5>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-Commerce Project -->
+      <div class="col-md-3">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce</h5>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics Project -->
+      <div class="col-md-3">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Analytics</h5>
+            <p>Coming Soon</p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- end .row -->
+  </div> <!-- end .card-body -->
+</div> <!-- end .card -->
